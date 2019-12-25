@@ -19,7 +19,7 @@ cp /usr/share/pve-manager/index.html.tpl /usr/share/pve-manager/index.html.tpl.b
 DotSay 'Applying stylesheet..'
 echo "<link rel='stylesheet' type='text/css' href='/pve2/css/dd_style.css'>" >> /usr/share/pve-manager/index.html.tpl
 cd /usr/share/pve-manager/css
-wget -O dd_style.css https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/serverside/style.css &> /dev/null 
+wget -O dd_style.css https://raw.githubusercontent.com/ZeroPoke/PVEDiscordDark/master/serverside/style.css &> /dev/null 
 DotSay 'Applied stylesheet!'
 DotSay 'Downloading images..'
 cd /usr/share/pve-manager/images
