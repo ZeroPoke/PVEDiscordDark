@@ -5,13 +5,13 @@ Say () {
 }
 
 DotSay () {
-    printf "[\e[1;34m*\e[0m] \e[0;34m $1  \e[0m \n"; 
+    printf "[\e[1;34m*\e[0m] \e[1;34m $1  \e[0m \n"; 
 }
 
 
 Say '[PVE Discord Dark UI Theme JSMOD Installer]'
 Say 'Internet connection REQUIRED.'
-Say '!!ONLY FOR PVE 6.0-4!!'
+Say '!!ONLY FOR PVE 6.0-4 - 6.1-x!!'
 Say '>Press any key to begin installation'
 read -p ""
 Say ' '

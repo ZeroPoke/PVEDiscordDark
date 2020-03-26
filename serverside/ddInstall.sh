@@ -5,7 +5,7 @@ Say () {
 }
 
 DotSay () {
-    printf "[\e[1;34m*\e[0m] \e[0;34m $1  \e[0m \n"; 
+    printf "[\e[1;34m*\e[0m] \e[1;34m $1  \e[0m \n"; 
 }
 
 
@@ -42,6 +42,7 @@ wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_mini-top.pn
 wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_readme &> /dev/null 
 wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_tool-sprites.png &> /dev/null 
 wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_trigger.png &> /dev/null 
+wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_loading.svg &> /dev/null 
 
 DotSay 'Downloaded images!'
 Say ''
